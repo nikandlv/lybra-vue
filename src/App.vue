@@ -1,16 +1,20 @@
 <template>
-  <div>
-    <h1>Hello</h1>
-  </div>
+    <div>
+        <Header />
+    </div>
 </template>
 <script>
+import Header from './layout/Header';
 export default {
   name: "app",
-  data: () => ({
+  components: {
+     Header 
+  }
 
-  })
 }
 </script>
 <style lang="stylus">
+ body
+    background-color white
 
 </style>
