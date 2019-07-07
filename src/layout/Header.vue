@@ -10,6 +10,12 @@
                 <li><Link to="#" text="Contact" /></li>
             </ul>
         </nav>
+        <div class="header-text">
+          <p class="small-slogan">multipurpose</p>
+          <h1 class="title">Corporate</h1>
+          <h1 class="title">XD Template</h1>
+          <p class="slogan">Will it be used for your home, your office or perhaps even your home office combo?</p>
+        </div>
     </header>
 </template>
 <script>
