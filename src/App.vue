@@ -14,8 +14,10 @@
  }
 </script>
 <style lang="stylus">
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import '../node_modules/normalize-stylus/normalize.styl'
 body
  background-color white
+ font-family 'Montserrat', sans-serif
 
 </style>

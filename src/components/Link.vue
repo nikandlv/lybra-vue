@@ -13,5 +13,6 @@
 <style lang="stylus" scoped>
  a
   text-decoration none
+  color black
  
 </style>
