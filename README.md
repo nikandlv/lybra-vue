@@ -1,5 +1,7 @@
 # lybra-vue
 
+> Lybra is a multiporpose template, part of neoxus.ir project
+
 ## Project setup
 ```
 npm install
