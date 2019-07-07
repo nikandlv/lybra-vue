@@ -14,5 +14,7 @@
  a
   text-decoration none
   color black
+  font-weight bold
+  font-size 0.9rem
  
 </style>

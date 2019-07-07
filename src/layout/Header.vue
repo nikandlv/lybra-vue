@@ -21,10 +21,11 @@
 </script>
 <style lang="stylus">
  header
-   padding 1rem 6rem
+   padding 0.8rem 6rem
    nav
     ul
       display flex
+      align-items center
       .logo
         flex-grow 1
         img
