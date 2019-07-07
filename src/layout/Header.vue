@@ -16,15 +16,19 @@
           <h1 class="title">Corporate</h1>
           <h1 class="title">XD Template</h1>
           <p class="slogan">Will it be used for your home, your office or perhaps even your home office combo?</p>
+          <div class="contact-wrapper">
+            <Input placeholder="+98 09 300" />
+          </div>
         </div>
       </header>
   </template>
   <script>
 import Link from '../components/Link'
 import HeaderArt from './art/HeaderArt'
+import Input from '../components/Input';
  export default {
      name:"Header",
-     components:{Link,HeaderArt}
+     components:{Link,HeaderArt,Input}
  }
 </script>
 <style lang="stylus">
