@@ -17,9 +17,9 @@
           <h1 class="title">XD Template</h1>
           <p class="slogan">Will it be used for your home, your office or perhaps even your home office combo?</p>
         </div>
-    </header>
-</template>
-<script>
+      </header>
+  </template>
+  <script>
 import Link from '../components/Link'
 import HeaderArt from './art/HeaderArt'
  export default {
@@ -29,19 +29,34 @@ import HeaderArt from './art/HeaderArt'
 </script>
 <style lang="stylus">
  header
-   padding 0.8vw 6vw
-   position relative
-   nav
-    ul
-      display flex
-      overflow-x auto
-      align-items center
-      .logo
-        flex-grow 1
-        img
-          height 32px
-          width auto
-      li
-        display block
-        margin 0 20px
+  padding 0.8vw 6vw
+  position relative
+  nav
+   ul
+     display flex
+     overflow-x auto
+     align-items center
+     .logo
+       flex-grow 1
+       img
+         height 32px
+         width auto
+     li
+       display block
+       margin 0 20px
+ .header-text
+  padding 10% 0
+  max-width 45%
+  .small-slogan
+   color black
+   text-transform uppercase
+  .title
+   color black
+   font-size 3rem
+   font-weight bolder
+   line-height 1.6rem
+  .slogan
+   color black
+   font-weight bold
+ 
 </style>
