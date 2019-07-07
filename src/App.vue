@@ -1,7 +1,8 @@
 <template>
     <div>
         <Header />
-    </div>
+         
+      </div>
 </template>
 <script>
  import Header from './layout/Header';
@@ -19,5 +20,6 @@
 body
  background-color white
  font-family 'Montserrat', sans-serif
+ overflow-x hidden
 
 </style>

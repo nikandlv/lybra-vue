@@ -1,5 +1,6 @@
 <template>
     <header>
+      <HeaderArt />
         <nav>
             <ul>
                 <li class="logo"><img alt="Lybra" src="../assets/logo.png"/></li>
@@ -19,18 +20,21 @@
     </header>
 </template>
 <script>
- import Link from '../components/Link'
+import Link from '../components/Link'
+import HeaderArt from './art/HeaderArt'
  export default {
      name:"Header",
-     components:{Link}
+     components:{Link,HeaderArt}
  }
 </script>
 <style lang="stylus">
  header
-   padding 0.8rem 6rem
+   padding 0.8vw 6vw
+   position relative
    nav
     ul
       display flex
+      overflow-x auto
       align-items center
       .logo
         flex-grow 1
