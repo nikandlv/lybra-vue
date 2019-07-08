@@ -68,7 +68,7 @@ section
     color lighten(black,30)
    .title
     color black
-    font-size 3rem
+    font-size 2.7rem
     font-weight bolder
     margin 1rem 0
   .slogan
