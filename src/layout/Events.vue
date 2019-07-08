@@ -5,9 +5,34 @@
             <h1 class="title">Upcoming Events</h1>
             <p class="slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno...</p>
         </div>
-        <grid center="xs">
+        <grid center="xs" class="events">
             <row>
-                <column :xs="12" :md="12">
+                <column :xs="12" :md="6">
+                    <EventCard class="active">
+
+                    </EventCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <EventCard>
+
+                    </EventCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <EventCard>
+
+                    </EventCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <EventCard>
+
+                    </EventCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <EventCard>
+
+                    </EventCard>
+                </column>
+                <column :xs="12" :md="6">
                     <EventCard>
 
                     </EventCard>
@@ -24,8 +49,10 @@
  }
 </script>
 <style lang="stylus" scoped>
+.events
+ padding 0 6rem
 .events-text
-   padding 10% 6rem
+   padding 10% 6rem 3% 6rem
    max-width 45%
    .small-slogan
     color black
