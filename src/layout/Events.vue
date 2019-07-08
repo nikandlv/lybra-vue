@@ -5,11 +5,22 @@
             <h1 class="title">Upcoming Events</h1>
             <p class="slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno...</p>
         </div>
+        <grid center="xs">
+            <row>
+                <column :xs="12" :md="12">
+                    <EventCard>
+
+                    </EventCard>
+                </column>
+            </row>
+        </grid>
     </section>
 </template>
 <script>
+ import EventCard from '../components/EventCard';
  export default {
-     name:"Events"
+     name:"Events",
+     components:{EventCard}
  }
 </script>
 <style lang="stylus" scoped>
