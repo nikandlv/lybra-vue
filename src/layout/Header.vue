@@ -18,6 +18,7 @@
           <p class="slogan">Will it be used for your home, your office or perhaps even your home office combo?</p>
           <div class="contact-wrapper">
             <Input placeholder="+98 09 300" />
+            <Button>Contact me</Button>
           </div>
         </div>
       </header>
@@ -26,9 +27,10 @@
 import Link from '../components/Link'
 import HeaderArt from './art/HeaderArt'
 import Input from '../components/Input';
+import Button from '../components/Button';
  export default {
      name:"Header",
-     components:{Link,HeaderArt,Input}
+     components:{Link,HeaderArt,Input,Button}
  }
 </script>
 <style lang="stylus">
@@ -58,9 +60,11 @@ import Input from '../components/Input';
    color black
    font-size 3rem
    font-weight bolder
-   line-height 1.6rem
+   margin 1rem 0
   .slogan
    color black
    font-weight bold
- 
+ .contact-wrapper
+   display flex
+   margin-top 32px
 </style>

@@ -1,14 +1,13 @@
 <template>
     <div>
         <Header />
-         
       </div>
 </template>
 <script>
  import Header from './layout/Header';
  export default {
      name: "app",
-     components: {
+      components: {
          Header 
      }
 
