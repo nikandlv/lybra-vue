@@ -13,12 +13,13 @@ button
   font-weight bold
   text-transform uppercase
   padding 1rem
+  letter-spacing 4px
   border unset
   outline unset
   cursor pointer
   position relative
   overflow hidden
-  font-size 0.8rem
+  font-size 0.7rem
   &:before
     content ''
     position absolute
