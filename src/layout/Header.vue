@@ -56,6 +56,7 @@ import Button from '../components/Button';
   .small-slogan
    color black
    text-transform uppercase
+   color lighten(black,30)
   .title
    color black
    font-size 3rem

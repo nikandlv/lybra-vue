@@ -1,14 +1,17 @@
 <template>
     <div>
         <Header />
+        <Features />
       </div>
 </template>
 <script>
  import Header from './layout/Header';
+ import Features from './layout/Features';
  export default {
      name: "app",
       components: {
-         Header 
+          Header,
+          Features
      }
 
  }
