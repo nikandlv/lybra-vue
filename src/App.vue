@@ -2,16 +2,19 @@
     <div>
         <Header />
         <Features />
+        <Preview />
       </div>
 </template>
 <script>
  import Header from './layout/Header';
  import Features from './layout/Features';
+ import Preview from './layout/Preview';
  export default {
      name: "app",
       components: {
           Header,
-          Features
+          Features,
+          Preview
      }
 
  }
