@@ -10,7 +10,9 @@
                 </div>
             </column>
             <column :xs="12" :lg="6">
-                testssssssss
+            <div class="preview-card">
+                 
+            </div>
             </column>
         </row>
     </grid>
@@ -24,10 +26,14 @@ import Button from '../components/Button'
 </script>
 <style lang="stylus" scoped>
 .preview-wrapper
-  padding 0
+  padding 1rem 6rem
+  .preview-card
+    background #6c63ff
+    width 100%
+    height 100%
   .preview-text
     padding 10% 0
-    max-width 45%
+    max-width 70%
     .small-slogan
       color black
       text-transform uppercase
