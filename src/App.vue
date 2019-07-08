@@ -3,18 +3,21 @@
         <Header />
         <Features />
         <Preview />
+        <Events />
       </div>
 </template>
 <script>
  import Header from './layout/Header';
  import Features from './layout/Features';
  import Preview from './layout/Preview';
+ import Events from './layout/Events';
  export default {
      name: "app",
       components: {
           Header,
           Features,
-          Preview
+          Preview,
+          Events
      }
 
  }
