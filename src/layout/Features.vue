@@ -10,37 +10,38 @@
             <row center="xs">
                 <column :xs="12" :sm="6" :md="4">
                     <FeatureCard>
-                        <template v-slot:title>test</template>
+                        <template v-slot:title>Easy Interface</template>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                     </FeatureCard>
                 </column>
                 <column :xs="12" :sm="6" :md="4">
                     <FeatureCard>
-                        <template v-slot:title>test</template>
+                        <template v-slot:title>Shortcode Manager</template>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                     </FeatureCard>
                 </column>
                 <column :xs="12" :sm="6" :md="4">
                     <FeatureCard>
-                        <template v-slot:title>test</template>
+                        <template v-slot:title>Solid Code</template>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                     </FeatureCard>
                 </column>
                 <column :xs="12" :sm="6" :md="4">
                     <FeatureCard>
-                        <template v-slot:title>test</template>
+                        <template v-slot:title>Premium Design</template>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                     </FeatureCard>
                 </column>
                 <column :xs="12" :sm="6" :md="4">
                     <FeatureCard>
-                        <template v-slot:title>test</template>
+                        <template v-slot:title>Favorites</template>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                     </FeatureCard>
                 </column>
                 <column :xs="12" :sm="6" :md="4">
                     <FeatureCard>
-                        <template v-slot:title>test</template>
+
+                        <template v-slot:title>Updates</template>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
                     </FeatureCard>
                 </column>
