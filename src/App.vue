@@ -4,6 +4,7 @@
         <Features />
         <Preview />
         <Events />
+        <Quote />
       </div>
 </template>
 <script>
@@ -11,13 +12,15 @@
  import Features from './layout/Features';
  import Preview from './layout/Preview';
  import Events from './layout/Events';
+ import Quote from './layout/Quote';
  export default {
      name: "app",
       components: {
           Header,
           Features,
           Preview,
-          Events
+          Events,
+          Quote
      }
 
  }
