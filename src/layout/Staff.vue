@@ -44,7 +44,7 @@
                 <column :xs="12" :md="6">
                     <StaffCard name="Leron Walton" title="Chief Analytics Officer">
                         <template v-slot:image>
-                            <img alt="Leron Walton" src="../assets/staff-2.png" />
+                            <img alt="Leron Walton" src="../assets/staff-1.png" />
                         </template>
                     </StaffCard>
                 </column>
@@ -65,7 +65,7 @@ section
   .wrapper
     padding 0 8rem
   .features-text
-   padding 10% 6rem
+   padding 2% 6rem
    max-width 55%
    .small-slogan
     color black

@@ -6,6 +6,7 @@
         <Events />
         <Quote />
         <Staff />
+        <LastPosts />
       </div>
 </template>
 <script>
@@ -15,6 +16,7 @@
  import Events from './layout/Events';
  import Quote from './layout/Quote';
  import Staff from './layout/Staff';
+ import LastPosts from './layout/LastPosts';
  export default {
      name: "app",
       components: {
@@ -23,7 +25,8 @@
           Preview,
           Events,
           Quote,
-          Staff
+          Staff,
+          LastPosts
      }
 
  }
