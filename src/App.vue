@@ -5,6 +5,7 @@
         <Preview />
         <Events />
         <Quote />
+        <Staff />
       </div>
 </template>
 <script>
@@ -13,6 +14,7 @@
  import Preview from './layout/Preview';
  import Events from './layout/Events';
  import Quote from './layout/Quote';
+ import Staff from './layout/Staff';
  export default {
      name: "app",
       components: {
@@ -20,7 +22,8 @@
           Features,
           Preview,
           Events,
-          Quote
+          Quote,
+          Staff
      }
 
  }
