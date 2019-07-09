@@ -7,10 +7,46 @@
         <grid class="wrapper">
             <row>
                 <column :xs="12" :md="6">
-                    <StaffCard />
+                    <StaffCard name="Leron Walton" title="Chief Analytics Officer">
+                        <template v-slot:image>
+                            <img alt="Leron Walton" src="../assets/staff-1.png" />
+                        </template>
+                    </StaffCard>
                 </column>
                 <column :xs="12" :md="6">
-                    <StaffCard class="active" />
+                    <StaffCard name="Leron Walton" title="Chief Analytics Officer">
+                        <template v-slot:image>
+                            <img alt="Leron Walton" src="../assets/staff-2.png" />
+                        </template>
+                    </StaffCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <StaffCard name="Leron Walton" title="Chief Analytics Officer">
+                        <template v-slot:image>
+                            <img alt="Leron Walton" src="../assets/staff-3.png" />
+                        </template>
+                    </StaffCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <StaffCard name="Leron Walton" title="Chief Analytics Officer" class="active">
+                        <template v-slot:image>
+                            <img alt="Leron Walton" src="../assets/staff-4.png" />
+                        </template>
+                    </StaffCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <StaffCard name="Leron Walton" title="Chief Analytics Officer">
+                        <template v-slot:image>
+                            <img alt="Leron Walton" src="../assets/staff-5.png" />
+                        </template>
+                    </StaffCard>
+                </column>
+                <column :xs="12" :md="6">
+                    <StaffCard name="Leron Walton" title="Chief Analytics Officer">
+                        <template v-slot:image>
+                            <img alt="Leron Walton" src="../assets/staff-2.png" />
+                        </template>
+                    </StaffCard>
                 </column>
             </row>
         </grid>
