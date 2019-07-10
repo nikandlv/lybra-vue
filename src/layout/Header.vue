@@ -34,7 +34,15 @@ import Button from '../components/Button';
  }
 </script>
 <style lang="stylus">
- header
+@media(max-width:800px)
+  header
+    padding 0.8rem
+    .header-text
+      max-width 100% !important
+      position relative
+    .contact-wrapper
+      flex-direction column
+header
   padding 0.8vw 6vw
   position relative
   nav
