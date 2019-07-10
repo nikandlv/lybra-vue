@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="features-text">
+        <div class="staff-text">
             <p class="small-slogan">human beings</p>
             <h1 class="title">Our awesome staff</h1>
         </div>
@@ -60,11 +60,18 @@ import StaffCard from '../components/StaffCard';
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  section
+    .wrapper
+      padding 0 1rem !important
+    .staff-text
+      max-width 100% !important
+      padding 8% 5% !important
 section
   padding 0.8vw 0vw
   .wrapper
     padding 0 8rem
-  .features-text
+  .staff-text
    padding 2% 6rem
    max-width 55%
    .small-slogan

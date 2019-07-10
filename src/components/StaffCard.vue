@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <slot name="image"></slot>
+        <span class="image"><slot name="image"></slot></span>
         <div class="text-section">
            <p>{{name}}</p>
            <span>{{title}}</span>
@@ -14,7 +14,16 @@
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  .card
+    margin 0px
+    flex-direction column
 .card
+  .image
+    img
+        display block
+        width 100%
+        height auto
   display flex
   margin 10px
   border 1px solid #ebebeb
