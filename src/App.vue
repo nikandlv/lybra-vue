@@ -8,6 +8,7 @@
         <Staff />
         <LastPosts />
         <Subscribe />
+        <Footer />
     </div>
 </template>
 <script>
@@ -19,6 +20,7 @@
  import Staff from './layout/Staff';
  import LastPosts from './layout/LastPosts';
  import Subscribe from './layout/Subscribe';
+ import Footer from './layout/Footer';
  export default {
      name: "app",
      components: {
@@ -29,7 +31,8 @@
          Quote,
          Staff,
          LastPosts,
-         Subscribe
+         Subscribe,
+         Footer
      }
 
  }
