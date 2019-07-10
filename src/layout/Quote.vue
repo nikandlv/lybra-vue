@@ -23,6 +23,13 @@
  }
 </script>
 <style lang="stylus">
+@media(max-width:800px)
+  .quote
+    padding 1rem !important
+    .wrapper
+      flex-direction column-reverse
+    .text-section
+      width 100% !important
 .quote
   position relative
   margin-top 16vh
