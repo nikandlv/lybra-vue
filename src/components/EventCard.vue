@@ -13,6 +13,12 @@
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  .event
+    flex-direction column
+    min-height 150px
+    p
+      margin 48px 0
 .event
   display flex
   align-items center

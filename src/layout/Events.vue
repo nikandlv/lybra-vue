@@ -49,6 +49,9 @@
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  .events
+    padding 3rem
 .events
  padding 0 6rem
 .events-text
