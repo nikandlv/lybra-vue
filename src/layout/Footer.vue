@@ -1,7 +1,7 @@
 <template>
     <footer>
         <grid>
-            <row>
+            <row class="row">
                 <column :xs="0" :md="0" :lg="3">
                 </column>
                 <column :xs="12" :md="4" :lg="3">
@@ -53,6 +53,13 @@
     </footer>
 </template>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  footer
+    padding 1rem !important
+    li
+      margin 25px 0 !important
+    .row
+      flex-direction column-reverse
 footer
   padding 1rem 6rem
   ul
