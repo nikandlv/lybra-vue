@@ -7,13 +7,13 @@
         </div>
         <grid center="xs">
             <row>
-                <column :xs="12" :md="6" lg="4">
+                <column :xs="12" :md="6" :lg="4">
                     <PostCard />
                 </column>
-                <column :xs="12" :md="6" lg="4">
+                <column :xs="12" :md="6" :lg="4">
                     <PostCard />
                 </column>
-                <column :xs="12" :md="6" lg="4">
+                <column :xs="12" :md="6" :lg="4">
                     <PostCard />
                 </column>
             </row>

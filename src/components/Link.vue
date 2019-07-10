@@ -16,5 +16,9 @@
   color black
   font-weight bold
   font-size 0.9rem
+  transition color 300ms
+  &:hover,&:focus,&:active
+    color #6c63ff
+
  
 </style>
