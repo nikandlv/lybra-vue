@@ -57,10 +57,16 @@
 }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  section
+    .features-text
+      max-width 100% !important
+    .features
+      padding 0rem !important
 section
   padding 0.8vw 0vw
   .features-text
-   padding 10% 6rem
+   padding 10% 6vw
    max-width 55%
    .small-slogan
     color black
