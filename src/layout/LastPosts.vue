@@ -5,16 +5,37 @@
             <h1 class="title">Latest posts</h1>
             <p class="slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno...</p>
         </div>
-        <grid center="xs">
+        <grid center="xs" class="posts">
             <row>
                 <column :xs="12" :md="6" :lg="4">
-                    <PostCard />
+                    <PostCard>
+                        <template v-slot:image>
+                            <img alt="Post 1" src="../assets/post-1.png"/>
+                        </template>
+                        <template v-slot:date>13 NOV 2018</template>
+                        <template v-slot:title>CTO</template>
+                        Improve your communication skills with 3 simple methods
+                    </PostCard>
                 </column>
                 <column :xs="12" :md="6" :lg="4">
-                    <PostCard />
+                    <PostCard>
+                        <template v-slot:image>
+                            <img alt="Post 2" src="../assets/post-2.png"/>
+                        </template>
+                        <template v-slot:date>7 FEB 2019</template>
+                        <template v-slot:title>CEO</template>
+                        Heres the latest update on our startup company and the patch notes
+                    </PostCard>
                 </column>
                 <column :xs="12" :md="6" :lg="4">
-                    <PostCard />
+                    <PostCard>
+                        <template v-slot:image>
+                            <img alt="Post 1" src="../assets/post-1.png"/>
+                        </template>
+                        <template v-slot:date>21 DEC 2019</template>
+                        <template v-slot:title>CPM</template>
+                        How we improve our products as we progress and go on
+                    </PostCard>
                 </column>
             </row>
         </grid>
@@ -48,4 +69,6 @@ section
  color black
  color lighten(black,30)
  line-height 1.5rem
+.posts
+ padding 1rem 6rem
 </style>
