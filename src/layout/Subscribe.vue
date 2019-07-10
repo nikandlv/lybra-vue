@@ -26,6 +26,7 @@
 <style lang="stylus" scoped>
 section
   background linear-gradient(45deg, #6c63ff 39%, #c77cf1 90%)
+  margin-top 5rem
   .grid
     padding 3rem 8rem
     .row

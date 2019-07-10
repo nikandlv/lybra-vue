@@ -59,7 +59,7 @@ import StaffCard from '../components/StaffCard';
      components:{StaffCard}
  }
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
 section
   padding 0.8vw 0vw
   .wrapper

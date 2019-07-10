@@ -34,7 +34,7 @@
      name:"PostCard"
  }
 </script>
-<style lang="stylus">
+<style lang="stylus" scoped>
 .card
   background white
   box-shadow 0 0 17px 0 rgba(0,0,0,0.2)
