@@ -7,7 +7,8 @@
         <Quote />
         <Staff />
         <LastPosts />
-      </div>
+        <Subscribe />
+    </div>
 </template>
 <script>
  import Header from './layout/Header';
@@ -17,16 +18,18 @@
  import Quote from './layout/Quote';
  import Staff from './layout/Staff';
  import LastPosts from './layout/LastPosts';
+ import Subscribe from './layout/Subscribe';
  export default {
      name: "app",
-      components: {
-          Header,
-          Features,
-          Preview,
-          Events,
-          Quote,
-          Staff,
-          LastPosts
+     components: {
+         Header,
+         Features,
+         Preview,
+         Events,
+         Quote,
+         Staff,
+         LastPosts,
+         Subscribe
      }
 
  }
