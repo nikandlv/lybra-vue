@@ -39,6 +39,7 @@
   background white
   box-shadow 0 0 17px 0 rgba(0,0,0,0.2)
   padding-bottom 2rem
+  margin 10px 0
   .head
     display flex
     padding 1rem 2rem

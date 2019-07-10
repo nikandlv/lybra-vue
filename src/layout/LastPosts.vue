@@ -30,7 +30,7 @@
                 <column :xs="12" :md="6" :lg="4">
                     <PostCard>
                         <template v-slot:image>
-                            <img alt="Post 1" src="../assets/post-1.png"/>
+                            <img alt="Post 1" src="../assets/post-3.png"/>
                         </template>
                         <template v-slot:date>21 DEC 2019</template>
                         <template v-slot:title>CPM</template>
@@ -51,6 +51,12 @@
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  .last-post-text
+    padding 5% 2rem !important
+    max-width 100% !important
+  .posts
+    padding 1rem !important
 section
  padding 0.8vw 0vw
 .last-post-text
