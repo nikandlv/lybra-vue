@@ -2,6 +2,20 @@
 
 > Lybra is a multiporpose template, part of neoxus.ir project
 
+props to <a href="https://dribbble.com/Freebieboss">Freebie Freebie</a> for the design
+
+#### Demo
+
+<a href="https://neoxus.ir/demo/lybra-vue">Demo</a>
+
+##### Lybra is a part of http://neoxus.ir project
+
+You are free to use as you like as long as you give the right credits to the project and to the designer
+
+
+### <div>Designed by <a href="https://dribbble.com/Freebieboss">Freebie Freebie</a> and can be found in <a href="https://dribbble.com/shots/5377148-Multipurpose-Theme">Dribbble</a></div>
+
+
 ## Project setup
 ```
 npm install
