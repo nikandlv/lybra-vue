@@ -9,10 +9,10 @@
                         <li class="title">Service</li>
                         <li><a href="">Free videos</a></li>
                         <li><a href="">Tools, Apps and plugins</a></li>
-                        <li><a href="">Designer</a></li>
-                        <li><a href="">Project Page</a></li>
-                        <li><a href="">Nikandlv</a></li>
-                        <li><a href="">Github</a></li>
+                        <li><a target="_blank" href="https://dribbble.com/Freebieboss">Designer</a></li>
+                        <li><a target="_blank" href="https://dribbble.com/shots/5377148-Multipurpose-Theme">Project Page</a></li>
+                        <li><a target="_blank" href="https://nikandlv.ir">Nikandlv</a></li>
+                        <li><a target="_blank" href="https://github.com/nikandlv/lybra-vue">Github</a></li>
                     </ul>
                 </column>
                 <column :xs="12" :md="4" :lg="3">
