@@ -27,12 +27,18 @@ import Button from '../components/Button'
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  .preview-wrapper
+    padding 1rem !important
+  .preview-text
+    max-width 100% !important
 .preview-wrapper
   padding 1rem 6rem
   .preview-card
     background #6c63ff
     width 100%
     height 100%
+    min-height 400px
     position relative
     .play-button
       position absolute

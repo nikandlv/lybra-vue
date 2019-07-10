@@ -34,7 +34,7 @@ import Button from '../components/Button';
  }
 </script>
 <style lang="stylus">
-@media(max-width:800px)
+@media(max-width:840px)
   header
     padding 0.8rem
     .header-text
