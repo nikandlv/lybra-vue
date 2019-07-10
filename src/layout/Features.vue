@@ -64,6 +64,7 @@
     .features
       padding 0rem !important
 section
+  overflow-x hidden
   padding 0.8vw 0vw
   .features-text
    padding 10% 6vw

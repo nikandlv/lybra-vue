@@ -24,6 +24,11 @@
  }
 </script>
 <style lang="stylus" scoped>
+@media(max-width:800px)
+  section
+    .grid
+      padding 1rem !important
+     
 section
   background linear-gradient(45deg, #6c63ff 39%, #c77cf1 90%)
   margin-top 5rem
