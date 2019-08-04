@@ -19,25 +19,21 @@ You are free to use as you like as long as you give the right credits to the pro
 ## Project setup
 ```
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+// Compiles and hot-reloads for development
+
 npm run serve
-```
 
-### Compiles and minifies for production
-```
+// Compiles and minifies for production
+
 npm run build
-```
 
-### Run your tests
-```
+// Run your tests
+
 npm run test
-```
 
-### Lints and fixes files
-```
+// Lints and fixes files
+
 npm run lint
 ```
 
